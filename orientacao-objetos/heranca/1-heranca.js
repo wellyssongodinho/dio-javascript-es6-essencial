@@ -23,8 +23,11 @@ function Cachorro(morde) {
 }
 
 const pug = new Cachorro(false);
+const pitBull = new Cachorro(true);
 console.log(pug);
+console.log(pitBull);
 //Cachorro {quatidadePatas: 4, morde: false}
+//Cachorro {quatidadePatas: 4, morde: true}
 
 
 

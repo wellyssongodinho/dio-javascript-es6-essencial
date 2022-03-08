@@ -17,7 +17,7 @@ console.log(arrMap)
 
 //flat
 //Retorna um novo array com todos os elementos de um sub-array concatenados de forma recursiva de acordo com a profundidade especificada(depth)
-const arr3 = [20, 34, [35, 60, [70, 40]]];
+const arr3 = [20, 34, [35, 60, [70, 40]],80];
 //recebe como parametro a profundidade
 const arrFlat = arr3.flat(2)
 
@@ -37,7 +37,7 @@ console.log(arrFlatMap);
 //keys
 //Retorna um Array Iterator que contém as chaves para cada elemento do array.
 const arr5 = [1, 2, 3, 4];
-const arrIterator = arr.keys();
+const arrIterator = arr5.keys();
 
 arrIterator.next();
 //{value: 0, done: false}

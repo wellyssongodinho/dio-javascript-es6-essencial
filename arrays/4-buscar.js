@@ -18,9 +18,9 @@ console.log(firstGreatThanTwo2);
 
 
 //filter
-//Retorna um novo arrau com todos os elementos que satisfazem a condição
+//Retorna um novo array com todos os elementos que satisfazem a condição
 const arr3 = [1, 2, 3, 4];
-const allValuesGreatThanTwo = arr3.findIndex(value => value > 2);
+const allValuesGreatThanTwo = arr3.filter(value => value > 2);
 
 console.log(allValuesGreatThanTwo);
 //[3, 4]
@@ -28,7 +28,7 @@ console.log(allValuesGreatThanTwo);
 
 //indexOf
 //Retorna o primeiro índice em que um elemento pode ser encontrado no array
-const arr4 = [1, 2, 3, 4];
+const arr4 = [1, 3, 3, 4, 3];
 const firstIndexOfItem = arr4.indexOf(3);
 
 console.log(firstIndexOfItem);
@@ -37,7 +37,7 @@ console.log(firstIndexOfItem);
 
 //lastIndexOf
 //Retorna o primeiro índice em que um elemento pode ser encontrado no array
-const arr4 = [1, 2, 3, 4];
+const arr4 = [1, 3, 3, 4, 3];
 const lastIndexOfItem = arr4.lastIndexOf(3);
 
 console.log(lastIndexOfItem);
@@ -67,7 +67,7 @@ const hasSomeEvenNumber = arr6.some(value => value % 2 === 0);
 //Retorna um bolleano verificando se todos os itens de um array satisfazem a condição
 const arr7 = [1, 3, 3, 4, 3];
 
-const allEvenNumbers = arr7.some(value => value % 2 === 0);
+const allEvenNumbers = arr7.every(value => value % 2 === 0);
 //false
 
 
