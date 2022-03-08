@@ -13,7 +13,6 @@ console.log(arr2.reduce((total, value) => total += value, 0));
 //15
 
 const arr3 = [{name: 'John', grade: 7}, {name: 'Jenny', grade: 5}, {name: 'Peter', grade: 4}];
-
 //média simples com reduce
 console.log(arr3.reduce((totalGrades, student) => totalGrades += student.grade, 0) / arr3.length);
 //5.33
